@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "Javascript template for Advent of Code event",
   "scripts": {
-    "start": "./scripts/start.sh",
-    "test": "./scripts/test.sh",
-    "lint": "./scripts/lint.sh",
-    "gen": "./scripts/gen.sh"
+    "start": "sh scripts/start.sh",
+    "test": "sh scripts/test.sh",
+    "lint": "sh scripts/lint.sh",
+    "gen": "sh scripts/gen.sh"
   },
   "keywords": [
     "aoc",

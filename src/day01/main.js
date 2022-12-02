@@ -7,7 +7,7 @@ import { part1, part2 } from ".";
   try {
     const input = await readFile("src/day01/resources/input.txt", "utf8");
 
-    console.dlog("--- Part One ---");
+    console.log("--- Part One ---");
     console.log("Result", part1(input));
 
     console.log("--- Part Two ---");
